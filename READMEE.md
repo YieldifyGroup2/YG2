@@ -30,7 +30,7 @@ def simple_token(code):
     :return: list of tokens
     :rtype: list
     """
-    tokens = code.split('')
+    tokens = code.split(' ')
     return tokens
 
 
